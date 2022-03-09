@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", "Lato", Helvetica, Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #52b44b;
+    padding: 0.5rem;
+    text-align: left;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 1rem;
+    transition-duration: 100ms;
+    text-rendering: optimizeLegibility;
+}
+header a:hover {
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+
+.top-header {
+    margin-left: 5rem;
+}
+header i {
+    color: white;
+    font-size: 20px;
+}
+ 
+/* Styling for nav */
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+nav img {
+    height: 4rem;
+    width: 15rem; 
+    margin-left: 3rem;
+}
+ .saflogo {
+     padding-right: 3rem;
+ }
+ .row a {
+     padding-right: 4rem;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bold;
+     color: black;
+     transition-duration: 500ms;
+ }
+ .row a:hover {
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 245);
+    border-bottom: solid 4px green;
+    padding: 1.5rem;
+ }
+ /*styling sticky navbar */ 
+
+
+
+ /*styling header pic and text*/ 
+
+ .picture {
+     position:relative;
+     box-sizing: border-box;
+     color: white;
+     margin-top: 0.3rem;
+     height: 30rem;
+     overflow: visible;
+     background-image: url(love.jpg); 
+     -webkit-background-size: cover; 
+     background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     
+ }
+
+/* .picture img {
+     height: 30rem;
+     width: 100vw;
+ }
+*/
+ .picture .intro {
+     position: absolute;
+     top: 0%;
+     margin-left: 5rem;
+     margin-top: 1rem;
+     font-size: 20px;
+ }
+ .intro h3 {
+     font-size: 24px;
+     margin-top: 3rem;
+     margin-bottom: 1rem;
+ }
+ .intro button {
+     color: white;
+     padding: 1rem;
+     border-radius: 30px;
+     font-weight: bolder;
+     background: transparent;
+     border: solid 2px white;
+     width: 10rem;
+ }
+ /*cards */ 
+ .card a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    font-size: 12px;
+    margin: 1rem;
+    transition-duration: 300ms;
+}
+
+.card a:hover {
+    color: #52b44b;
+    font-size: 13px;
+}
+.main-card .cards hr {
+    width: 90%;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    
+}
+.main-card {
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    background-color: white;
+    padding: 3rem;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 1rem black;
+} 
+.main-card h2 {
+    text-align: center;
+    color: black;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+.card {
+    margin: 1rem;
+}
+.card h4 {
+    color: #52b44b;
+}
+/* section css */ 
+.section {
+    background-color: rgb(224, 224, 224);
+}
+
+.text {
+padding : 4rem;
+align-items: left;
+}
+
+.text h2 {
+    margin: 2rem;
+}
